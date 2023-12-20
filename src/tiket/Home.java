@@ -116,7 +116,7 @@ public class Home extends javax.swing.JFrame {
         jLabel4.setText("Stasiun Tujuan     :");
 
         stasiun_tujuan.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
-        stasiun_tujuan.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Surabaya Gubeng (SGU)", "Surabaya Pasar Turi (SBI)", "Wonokromon (WO)", "Sidoarjo (SDA)", "Krian (KRN)" }));
+        stasiun_tujuan.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Surabaya Gubeng (SGU)", "Surabaya Pasar Turi (SBI)", "Wonokromo (WO)", "Sidoarjo (SDA)", "Waru (WR)" }));
 
         jLabel5.setFont(new java.awt.Font("Times New Roman", 0, 18)); // NOI18N
         jLabel5.setText("ID Penumpang      :");
@@ -593,7 +593,7 @@ public class Home extends javax.swing.JFrame {
         }else if(ckereta.getSelectedItem().equals("Argo Wilis") && stasiun_tujuan.getSelectedItem().equals("Sidoarjo (SDA)")){
             berangkat.setText("09.15 WIB");
             tiba.setText("10.45 WITA");
-        }else if(ckereta.getSelectedItem().equals("Argo Wilis") && stasiun_tujuan.getSelectedItem().equals(" Krian (KRN)")){
+        }else if(ckereta.getSelectedItem().equals("Argo Wilis") && stasiun_tujuan.getSelectedItem().equals(" Waru (WR)")){
             berangkat.setText("10.10 WIB");
             tiba.setText("12.03 WITA");
             
@@ -610,7 +610,7 @@ public class Home extends javax.swing.JFrame {
         }else if(ckereta.getSelectedItem().equals("Argo Parahyangan") && stasiun_tujuan.getSelectedItem().equals("Sidoarjo (SDA)")){
             berangkat.setText("08.15 WIB");
             tiba.setText("12.45 WITA");
-        }else if(ckereta.getSelectedItem().equals("Argo Parahyangan") && stasiun_tujuan.getSelectedItem().equals("Krian (KRN)")){
+        }else if(ckereta.getSelectedItem().equals("Argo Parahyangan") && stasiun_tujuan.getSelectedItem().equals("Waru (WR)")){
             berangkat.setText("10.10 WIB");
             tiba.setText("17.03 WITA");
             
@@ -627,7 +627,7 @@ public class Home extends javax.swing.JFrame {
         }else if(ckereta.getSelectedItem().equals("Lodaya") && stasiun_tujuan.getSelectedItem().equals("Sidoarjo (SDA)")){
             berangkat.setText("07.15 WIB");
             tiba.setText("18.45 WITA");
-        }else if(ckereta.getSelectedItem().equals("Lodaya") && stasiun_tujuan.getSelectedItem().equals("Krian (KRN)")){
+        }else if(ckereta.getSelectedItem().equals("Lodaya") && stasiun_tujuan.getSelectedItem().equals("Waru (WR)")){
             berangkat.setText("09.10 WIB");
             tiba.setText("19.07 WITA");
         }
